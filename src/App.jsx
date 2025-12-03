@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import NavBar from '/components/NavBar.jsx'
 import LoginForm from '/components/LoginForm.jsx'
 import Footer from '/components/Footer.jsx'
-// import './App.css'
+import './App.css'
 
 function App() {
   const [students, setStudents] = useState([]);
