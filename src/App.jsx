@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import NavBar from '/components/NavBar.jsx'
 import LoginForm from '/components/LoginForm.jsx'
+import Footer from '/components/Footer.jsx'
 // import './App.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <>
       <NavBar />
       <LoginForm />
+      <Footer/>
     </>
   )
 }
