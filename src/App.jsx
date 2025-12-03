@@ -26,7 +26,6 @@ function App() {
     <>
       <NavBar />
       <LoginForm />
-      <Footer/>
 
     <div style={{ padding: 20 }}>
       <h1>Students</h1>
@@ -38,6 +37,7 @@ function App() {
         ))}
       </ul>
     </div>
+      <Footer/>
     </>
   );
 }
